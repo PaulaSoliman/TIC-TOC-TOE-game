@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIC TAC TOE game</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="images/favIcon.png" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div
+        class="dashBoard mx-auto d-flex justify-content-center align-items-center"
+      >
+        <span class="pe-2">X O</span>
+        Game
+      </div>
+      <div class="mx-auto">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="square" id="item1" onclick="game(this.id)"></div>
+          <div class="square" id="item2" onclick="game(this.id)"></div>
+          <div class="square" id="item3" onclick="game(this.id)"></div>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="square" id="item4" onclick="game(this.id)"></div>
+          <div class="square" id="item5" onclick="game(this.id)"></div>
+          <div class="square" id="item6" onclick="game(this.id)"></div>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="square" id="item7" onclick="game(this.id)"></div>
+          <div class="square" id="item8" onclick="game(this.id)"></div>
+          <div class="square" id="item9" onclick="game(this.id)"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+#container{
+    background-image: url(../images/97-977563_abstract-gaming-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.dashBoard{
+    width: 75%;
+    height: 75px;
+    background-color: rgba(255, 34, 153,0.7);
+    font-weight: bold;
+    font-size: 35px;
+}
+.dashBoard span{
+    color: rgb(255, 255, 37);
+}
+#container .square{
+    width: 200px;
+    height:200px;
+    background-color:rgba(255, 34, 153,0.7) ;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#container .square:hover{
+    background-color: black;
+}
